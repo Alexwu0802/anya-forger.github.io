@@ -17,8 +17,8 @@ const links = [
                 'w-full',
                 'rounded-b-lg',
                 'bg-gradient-to-r',
-                'from-violet-800',
-                'to-indigo-600',
+                'from-pink-300',
+                'to-indigo-500',
                 'pl-24',
                 'shadow-lg',
                 'shadow-indigo-400',
@@ -35,7 +35,7 @@ const links = [
             >
                 <router-link
                     :to="link.url"
-                    class="text-xl text-white opacity-80 shadow-cyan-300 drop-shadow-xl transition-all duration-200 hover:text-2xl hover:opacity-100"
+                    class="text-xl text-black opacity-80 shadow-cyan-300 drop-shadow-xl transition-all duration-200 hover:text-2xl hover:opacity-100"
                     >{{ link.text }}</router-link
                 >
             </div>
